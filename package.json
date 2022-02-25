@@ -1,0 +1,24 @@
+{
+  "name": "fullcycle-integracao-continua-pipeline-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eurafa/fullcycle-integracao-continua-pipeline-ci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eurafa/fullcycle-integracao-continua-pipeline-ci/issues"
+  },
+  "homepage": "https://github.com/eurafa/fullcycle-integracao-continua-pipeline-ci#readme",
+  "dependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "sonar-scanner": "^3.1.0"
+  }
+}

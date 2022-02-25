@@ -1,0 +1,4 @@
+.sonarscanner
+/coverage
+
+/node_modules
