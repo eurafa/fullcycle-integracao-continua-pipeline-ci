@@ -21,7 +21,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: |
           npm install
-          npm test
+          npx jest --ci --json --coverage --testLocationInResults --outputFile=report.json
       - uses: ArtiomTr/jest-coverage-report-action@v2
       - uses: SonarSource/sonarcloud-github-action@master
         env:
