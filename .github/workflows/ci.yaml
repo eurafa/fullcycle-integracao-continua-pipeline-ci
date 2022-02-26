@@ -17,7 +17,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: |
           npm install
-          npx run test
+          npm run test
       - uses: sonarsource/sonarqube-scan-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
