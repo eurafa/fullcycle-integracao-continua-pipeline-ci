@@ -14,4 +14,6 @@ const multiply = (a, b) => {
     return a * b;
 }
 
-module.exports = sum, subtract, divide, multiply;
+module.exports = {
+    sum, subtract, divide, multiply
+};
